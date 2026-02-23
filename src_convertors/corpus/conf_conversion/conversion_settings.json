@@ -13,16 +13,12 @@
     "genre"
   ],
   "languages": [
-    "ingrian",
-    "english",
-    "russian",
-    "note_english",
-    "note_russian",
-    "ref"
+    "hungarian",
+	"english"
   ],
   "privacy_tier": "privacy",
   "tier_languages": {
-    "txt@.*": "ingrian",
+    "txt@.*": "hungarian",
     "ft_en@.*": "english"
   },
   "main_tiers": [

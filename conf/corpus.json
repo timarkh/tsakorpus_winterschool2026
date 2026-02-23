@@ -90,12 +90,8 @@
   "fulltext_view_enabled": true,
   "use_nonpersistent_fulltext_id": true,
   "languages": [
-    "ingrian",
-    "english",
-    "russian",
-    "note_english",
-    "note_russian",
-    "ref"
+    "hungarian",
+    "english"
   ],
   "transliterations": [
     "original"
@@ -111,6 +107,6 @@
   "gloss_search_enabled": false,
   "ambiguous_analyses": true,
   "lang_props": {
-    "ingrian": {}
+    "hungarian": {}
   }
 }

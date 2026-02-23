@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2026-02-23T17:47:53+01:00"
+    FORMAT="3.0" VERSION="3.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR
+            MEDIA_URL="file:///D:/git/tsakorpus_winterschool2026/src_convertors/corpus/eaf/Orsi_TA_23.02.2026_Munich.wav"
+            MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./Orsi_TA_23.02.2026_Munich.wav"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:2ea56f9f-c543-4444-8911-2bfe5fc513e6</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">15</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="3320"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="4300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="4480"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="5240"/>
+    </TIME_ORDER>
+    <TIER LINGUISTIC_TYPE_REF="transcription" PARTICIPANT="Orsi" TIER_ID="txt@Orsi">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1"
+                TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>Szia.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2"
+                TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>Orsi vagyok,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="translation" PARENT_REF="txt@Orsi"
+        PARTICIPANT="Orsi" TIER_ID="ft_en@Orsi">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>Hello.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a4" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>I'm Orsi,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="word" PARENT_REF="txt@Orsi"
+        PARTICIPANT="Orsi" TIER_ID="word@Orsi">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a5" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>Szia</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a6" ANNOTATION_REF="a1" PREVIOUS_ANNOTATION="a5">
+                <ANNOTATION_VALUE>.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a7" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>Orsi</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a8" ANNOTATION_REF="a2" PREVIOUS_ANNOTATION="a7">
+                <ANNOTATION_VALUE>vagyok</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a9" ANNOTATION_REF="a2" PREVIOUS_ANNOTATION="a8">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="lemma" PARENT_REF="word@Orsi"
+        PARTICIPANT="Orsi" TIER_ID="lemma@Orsi">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a10" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>szia</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a11" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>Orsi</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a12" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>van</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="pos" PARENT_REF="lemma@Orsi"
+        PARTICIPANT="Orsi" TIER_ID="pos@Orsi">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a13" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>INTJ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a14" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>PROPN</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a15" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>VERB</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="transcription" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="translation" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Subdivision"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="word" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="lemma" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="pos" TIME_ALIGNABLE="false"/>
+    <CONSTRAINT
+        DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT
+        DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT
+        DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

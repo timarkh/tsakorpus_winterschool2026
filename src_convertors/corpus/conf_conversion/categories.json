@@ -1,8 +1,8 @@
 {
-    "ingrian": {
-        "n": "pos",
-        "v": "pos",
-        "adv": "pos",
+    "hungarian": {
+        "VERB": "pos",
+        "INTJ": "pos",
+        "PROPN": "pos",
         "adj": "pos",
         "prt": "pos",
         "pro": "pos",
