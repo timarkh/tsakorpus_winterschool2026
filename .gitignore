@@ -3,7 +3,6 @@
 txt2json/corpus/json/**
 txt2json/corpus/txt/**
 corpus/**
-src_convertors/corpus/**
 search/media/**
 search/tmp/**
 search/img/**
@@ -49,6 +48,9 @@ USER_CONFIG/
 *.rar
 *.gz
 *.docx
+*.wav
+*.mp4
+*.pfsx
 *.min.css.map
 *.min.js.map
 conf/categories_*.json

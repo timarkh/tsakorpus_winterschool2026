@@ -1,0 +1,47 @@
+{
+  "media_length": 60,
+  "meta_filename": "meta.csv",
+  "speaker_meta_filename": "speaker_meta.json",
+  "meta_fields": [
+    "filename",
+    "title",
+    "speakers",
+    "date",
+	"place",
+    "year_from",
+    "year_to",
+    "genre"
+  ],
+  "languages": [
+    "ingrian",
+    "english",
+    "russian",
+    "note_english",
+    "note_russian",
+    "ref"
+  ],
+  "privacy_tier": "privacy",
+  "tier_languages": {
+    "txt@.*": "ingrian",
+    "ft_en@.*": "english"
+  },
+  "main_tiers": [
+    "transcription"
+  ],
+  "aligned_tiers": [
+    "translation"
+  ],
+  "analysis_tiers": {
+    "word@.*": "word",
+    "lemma@.*": "lemma",
+    "pos@.*": "pos"
+  },
+  "one_morph_per_cell": true,
+  "meta_files_ext": true,
+  "meta_files_dir": false,
+  "meta_files_case_sensitive": true,
+  "json_indent": 1,
+  "convert_quotes": false,
+  "gzip": false,
+  "add_contextual_flags": true
+}
