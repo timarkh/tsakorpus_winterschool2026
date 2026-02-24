@@ -3,7 +3,7 @@
         "VERB": "pos",
         "INTJ": "pos",
         "PROPN": "pos",
-        "adj": "pos",
+        "NOUN": "pos",
         "prt": "pos",
         "pro": "pos",
         "post": "pos",

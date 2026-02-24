@@ -12,6 +12,7 @@
   "max_words_in_sentence": 40,
   "query_timeout": 60,
   "year_sort_enabled": true,
+  "elastic_cacert": "/etc/elasticsearch/certs/http_ca.crt",
   "viewable_meta": [
     "filename",
     "title",
